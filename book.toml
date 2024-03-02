@@ -4,3 +4,12 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Deep Rock Galactic Modding Docs"
+
+[rust]
+edition = "2021"
+
+[output.html]
+mathjax-support = true
+git-repository-url = "https://github.com/jieyouxu/drg-modding-docs"
+edit-url-template = "https://github.comjieyouxu/drg-modding-docs/{path}"
+custom-css = ["custom.css"]

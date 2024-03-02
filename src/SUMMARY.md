@@ -1,3 +1,12 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+[Introduction](README.md)
+[Contributing](contributing.md)
+
+# Mint
+
+# Modding Documentation
+
+# Modding Guides
+
+# TBD
