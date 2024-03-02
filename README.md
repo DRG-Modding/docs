@@ -1,4 +1,4 @@
-# Deep Rock Galactic Modding Docs and Guides
+# Deep Rock Galactic Modding Handbook
 
 A collection of Deep Rock Galactic modding documentation and guides.
 
