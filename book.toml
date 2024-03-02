@@ -1,0 +1,6 @@
+[book]
+authors = ["许杰友 Jieyou Xu (Joe)"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Deep Rock Galactic Modding Docs"
