@@ -1,2 +1,5 @@
-# drg-modding-docs
-A collection of DRG modding documentation and guides
+# Deep Rock Galactic Modding Docs and Guides
+
+A collection of Deep Rock Galactic modding documentation and guides.
+
+View the docs and guides at <https://jieyouxu.github.io/drg-modding-docs/>.
