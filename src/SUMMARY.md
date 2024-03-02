@@ -5,19 +5,11 @@
 
 ---
 
-# Mint
+# Guides
 
-- [Introduction to Mint](mint/README.md)
-- [Getting started](mint/getting-started.md)
-- [GUI synopsis](mint/gui.md)
-- [Mod lints](mint/lints.md)
-- [Common errors and troubleshooting](mint/common-errors.md)
-- [Frequently asked questions](mint/faqs.md)
+- [Getting Started](modding/getting-started.md)
+- [Basic Modding Guide](guides/basic-modding-guide.md)
+- [Blueprint Modding Guide](guides/blueprint-modding-guide.md)
+- [Audio Modding Guide](guides/audio-modding-guide.md)
 
 ---
-
-# Modding Documentation
-
-# Modding Guides
-
-# Useful Tools and Resources

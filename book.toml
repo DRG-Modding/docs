@@ -1,5 +1,5 @@
 [book]
-authors = ["许杰友 Jieyou Xu (Joe)"]
+authors = ["许杰友 Jieyou Xu (Joe), Buckminsterfullerene"]
 language = "en"
 multilingual = false
 src = "src"
@@ -10,6 +10,6 @@ edition = "2021"
 
 [output.html]
 mathjax-support = true
-git-repository-url = "https://github.com/jieyouxu/drg-modding-docs"
-edit-url-template = "https://github.comjieyouxu/drg-modding-docs/{path}"
-custom-css = ["custom.css"]
+git-repository-url = "https://github.com/DRG-Modding/docs"
+edit-url-template = "https://github.com/DRG-Modding/docs/{path}"
+additional-css = ["css/custom.css"]
