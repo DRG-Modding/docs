@@ -1,8 +1,6 @@
-# Blueprint Modding Guide
-
 <h2><strong>DRG Mods: A Comprehensive Guide to Blueprint Modding</strong></h2>
 <blockquote>
-<p>Please do not hesitate to ask for help on the <a href="https://discord.gg/zQMKGTStfa">DRG Modding Discord</a> in #mod-questions!</p>
+<p>Please do not hesitate to ask for help on the <a href="https://discord.gg/HDCh5fwnwP" target="_blank" rel="noopener">Practical DRG discord</a> in #modding!</p>
 <p><strong>Credits:</strong><br />Buckminsterfullerene - Originally wrote and maintains guide.<br /><a href="https://mod.io/u/ourlordandsaviorgabe">OurLordAndSaviourGabe</a> (AKA Banagement) - Advanced replication explanation section.<br /><a href="https://mod.io/u/memechael">MichaelG123</a> - Secondary advanced replication section.</p>
 </blockquote>
 <hr />
@@ -73,7 +71,7 @@
 <hr />
 <h2>2. How blueprints work</h2>
 <h3>How BP mods are loaded into DRG</h3>
-<p>Native spawning is something that was added by the developers when the modding update dropped. This allows you to load your blueprint from the <code>BeginPlay</code> event node. If you want your BP mod to have user-interactable UI (like a settings menu), you should use a framework like <code>ModHub</code>.</p>
+<p>Native spawning is something that was added by the developers when the modding update dropped. This allows you to load your blueprint from the <code>BeginPlay</code> event node. If you want your BP mod to have user-interactable UI (like a settings menu), you should use a framework like <code>ModHub</code> or <code>UnifiedUI</code>.</p>
 <h3>Framework mods</h3>
 <p>Usually, you will only want to use a framework mod if you want the user to be able to change settings for your mod in game. If you don't need this for your mod, you do not need to use a framework. Framework mods so far have always come in two parts:</p>
 <ul>
@@ -81,8 +79,11 @@
 <li>The in-game mod dependency that runs all of the framework's functions and processes</li>
 </ul>
 <p>I suggest that for now, as you are learning BP modding, that you don't touch any frameworks, otherwise you'll find yourself spending more time wrangling with widgets than actually learning new techniques.</p>
+<p><strong>UnifiedUI</strong></p>
+<p>UnifiedUI is a shared-settings mod interface with no strings attached. If you just want a place to put your mod settings widgets, use this.</p>
 <p><strong>ModHub</strong></p>
-<p>ModHub is the "official" shared-settings mod interface. If you want a place to put settings widgets for your mods, use this. You can view the source <a href="https://github.com/DRG-Modding/ModHub">here</a>, and the guide for use <a href="https://discord.com/channels/676880716142739467/942127453441241199/943241214948417566">here</a> (you need to be in the DRG Modding discord).</p>
+<p>ModHub is another shared-settings mod interface. However, it also includes a number of other built-in "features" that break compatibility with a lot of mods. As a mod developer, you can expect frequent updates that have nothing to do with shared-settings. By opting to use ModHub, you are subjecting your mod to be bundled with other mods claimed as broken by the ModHub developers.</p>
+<p>Warning: ModHub is under copyright and any use of it that the developers do not agree with will lead to your mod being DMCA'd by the mod authors. Please take care when using ModHub. ModHub is not open source.</p>
 <p><strong>DRGLib</strong></p>
 <p>Samamster has been developing this framework as a more feature-rich BP modding library. The great thing about this library, is that it provides helper functions and DRG-like UI objects that makes BP modding just that little bit easier. You can view both the source and guide for use <a href="https://github.com/SamsDRGMods/DRGLib">here</a>.</p>
 <h3>Methods of BP modding</h3>

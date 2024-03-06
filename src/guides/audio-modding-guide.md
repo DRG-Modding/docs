@@ -1,8 +1,6 @@
-# Audio Modding Guide
-
 <h2><strong>DRG Mods: A Comprehensive Guide to Audio Modding</strong></h2>
 <blockquote>
-<p>Please do not hesitate to ask for help on the <a href="https://discord.gg/zQMKGTStfa">DRG Modding Discord</a> in #mod-questions!</p>
+<p>Please do not hesitate to ask for help on the <a href="https://discord.gg/HDCh5fwnwP" target="_blank" rel="noopener noreferrer">Practical DRG discord</a> in #modding!</p>
 <p><strong>Credits:</strong><br />Buckminsterfullerene - Originally wrote and maintains guide.<br />Kraeus - Helping out with knowledge tidbits.<br />Dr Turtle - Typo/grammar/link fix pass, rewrote replacing axe impact sounds section.</p>
 </blockquote>
 <h2>Watch this video guide while reading the written guide for extra information!</h2>
