@@ -1,6 +1,6 @@
 <h2>DRG Mods: An Introduction to Modding</h2>
 <blockquote>
-<p>Please do not hesitate to ask for help on the <a href="https://discord.gg/zQMKGTStfa">DRG Modding Discord</a> in #mod-questions!</p>
+<p>Please do not hesitate to ask for help on the <a href="https://discord.gg/gUw32ayWGt">DRG Modding Discord</a> in #mod-questions!</p>
 <p><strong>Credits:<br /></strong>Rauliken - Originally wrote guide.<br />Jen Walter - Original guide contributor.<br />Pacagma - Original guide contributor.<br />NaturalBornCamper - Original guide contributor.<br />Akira Fudo - Original guide contributor.<br />Buckminsterfullerene - Maintains guide and moved to mod.io.<br />Fancyneer - Update with common issues and new tools.</p>
 </blockquote>
 <hr />
@@ -49,7 +49,7 @@
 <li>Make sure you&rsquo;ve read the official info about DRG&rsquo;s mod support in the links below. I&rsquo;m not going to go into details here so make sure you read them to understand the basics. The main post <a href="https://steamcommunity.com/games/DeepRockGalactic/announcements/detail/2953787944888179529">here</a>. The FAQ with some additional info <a href="https://www.deeprockgalactic.com/modding-support-faq">here</a>. You can also check the 3 guides created by GSG in the mod.io guides section.</li>
 <li>Mods are only hosted here on mod.io. Use the modding menu inside the game to create an account automatically so you can upload your mods.</li>
 <li>Your vanilla or modded save files are safe because mods will not corrupt/mess with it unless you use the tools maliciously. If you are concerned about this use the save clone and backup feature that the game provides in the menu.</li>
-<li>This guide only covers the bare minimum so if you want to learn more make sure you check all the other guides in the <code>#learn-guides</code> channel in the <a href="https://discord.gg/zQMKGTStfa">DRG Modding Discord</a>.</li>
+<li>This guide only covers the bare minimum so if you want to learn more make sure you check all the other guides in the <code>#learn-guides</code> channel in the <a href="https://discord.gg/gUw32ayWGt">DRG Modding Discord</a>.</li>
 </ol>
 <p>I highly recommend reading sections 1. and 2. from top to bottom if it&rsquo;s your first time.</p>
 <h3>1.2 Basic tools</h3>
@@ -61,7 +61,7 @@
 <p>This tool will allow us to extract the files from <code>FSD-WindowsNoEditor.pak</code> and will also let us pack our own files. The files that you extract will have the extensions <code>.uexp</code> and <code>.uasset</code> which are Unreal Engine files. More on this on <code>2.1 Unpacking the game&rsquo;s files</code>.</p>
 <p><strong>For older users of the guide:</strong> <em>you don&rsquo;t need UEE anymore with the new version of the packer if you just want to make hex mods. </em></p>
 <p><strong>3. UAssetGUI</strong></p>
-<p>This is used to see the contents of the files and change values. You are going to need it if you want to make mods that change a value/s inside the game files. There will be an example in <code>3.1 Hex mods</code>. <code>adolescent#9927</code> is the developer of <code>UAssetGUI</code> and is in our Discord so you can head to our dedicated <a href="https://discord.com/channels/676880716142739467/883533585657757696">thread</a> to ask him any questions. If the tools don&rsquo;t work then you may need to download the <a href="https://dotnet.microsoft.com/download">.NET Runtime</a>. You can find the Github repository for this open-source tool <a href="https://github.com/atenfyr/UAssetGUI/">here</a>.</p>
+<p>This is used to see the contents of the files and change values. You are going to need it if you want to make mods that change a value/s inside the game files. There will be an example in <code>3.1 Hex mods</code>.&nbsp; If the tools don&rsquo;t work then you may need to download the <a href="https://dotnet.microsoft.com/download">.NET Runtime</a>. You can find the Github repository for this open-source tool <a href="https://github.com/atenfyr/UAssetGUI/">here</a>.</p>
 <p><strong>4. EmptyContentHierarchy</strong></p>
 <p>These are all the folders inside an extracted <code>FSD-WindowsNoEditor.pak</code> but empty, just the folders. This will be useful later to pack files and for UEE in other guides. Each major update will have a different one, so make sure you get the one from the most recent version of the DRG Modding tools <a href="https://drg-modding.github.io/tools/" target="_blank" rel="noopener noreferrer">website</a>.</p>
 <p><img src="https://image.modcdn.io/members/6da1/6436408/profilegeneral/ech_1.png" alt="ech 1" /></p>
@@ -189,7 +189,7 @@
 <p>For audio and blueprint mods the user <code>Buckminsterfullerene#6666</code> has made some great ones.</p>
 <p>For model and texture replacement <code>Pacagma#1515</code> is your guy.</p>
 <p><code> Fancyneer#1553</code> is also someone who is keen to help out with a wide array of mods such as audio, model replacement, and animation.</p>
-<p>Make sure to checkout the [DRG Modding tools](https://drg-modding.github.io/tools) site to find other tools.</p>
+<p>Make sure to checkout the <a href="https://drg-modding.github.io/tools" target="_blank" rel="noopener noreferrer">modding tools</a> site to find other tools.</p>
 <hr />
 <h2>4. Common issues and how to solve them</h2>
 <h3>4.1 My mod isn't working/vanilla files are still playing or present</h3>
@@ -207,7 +207,7 @@
 <p>If you&rsquo;re replacing an enemy model and the game crashes when it despawns, this is because your model&rsquo;s material lacks the dissolve logic the base glyphid material has. You will need to copy that material over to your own project and then edit it to fit your own model.</p>
 <hr />
 <h2>5. Conclusion</h2>
-<p>I hope you found the guide simple enough to understand and that you make many great mods. It&rsquo;s been a long time, we started this community with 2-3 modders and a small private discord and now we have members in the thousands, the developers added official mod support and with this guide we have a new modder to welcome :)</p>
+<p>I hope you found the guide simple enough to understand and that you make many great mods. It&rsquo;s been a long time, we started this community with 2-3 modders and a small private discord and now we have members in the thousands, the developers added official mod support and with this guide we have a new modder to welcome :) - Rauliken (Original author)</p>
 <p>If you ever feel frustrated when making mods don&rsquo;t forget that there&rsquo;s always someone willing to help, it&rsquo;s a very wholesome community. You can find a ton of info in the <code>#mod-chat</code> channel in our discord and there&rsquo;s even a channel where people stream themselves making mods so you can all learn together.</p>
 <p>If you ever want to check some old mods for inspiration, extracting the files to see which ones they changed etc, this is the <a href="https://github.com/ArcticEcho/DRG-Mods">Github repository</a> where the old Update 33 mods were before the modding support update.</p>
 <p>See you in discord and in the mines, ROCK AND STONE!</p>

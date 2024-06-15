@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to the Deep Rock Galactic Modding Handbook. In this handbook, we cover:
+Welcome to the Deep Mod Galactic Modding Handbook. In this handbook, we cover:
 
 - Modding documentation
 - Modding guides
