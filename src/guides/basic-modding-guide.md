@@ -1,6 +1,6 @@
 <h2>DRG Mods: An Introduction to Modding</h2>
 <blockquote>
-<p>Please do not hesitate to ask for help on the <a href="https://discord.gg/gUw32ayWGt">DRG Modding Discord</a> in #mod-questions!</p>
+<p>Please do not hesitate to ask for help! You can find talented modders in the <a href="https://discord.gg/tmFJcesA6d">DRG RND Discord</a> or the <a href="https://discord.gg/nkPhp2sZfd">DRG Modder's Guild Discord</a>.</p>
 <p><strong>Credits:<br /></strong>Rauliken - Originally wrote guide.<br />Jen Walter - Original guide contributor.<br />Pacagma - Original guide contributor.<br />NaturalBornCamper - Original guide contributor.<br />Akira Fudo - Original guide contributor.<br />Buckminsterfullerene - Maintains guide and moved to mod.io.<br />Fancyneer - Update with common issues and new tools.</p>
 </blockquote>
 <hr />
@@ -49,7 +49,7 @@
 <li>Make sure you&rsquo;ve read the official info about DRG&rsquo;s mod support in the links below. I&rsquo;m not going to go into details here so make sure you read them to understand the basics. The main post <a href="https://steamcommunity.com/games/DeepRockGalactic/announcements/detail/2953787944888179529">here</a>. The FAQ with some additional info <a href="https://www.deeprockgalactic.com/modding-support-faq">here</a>. You can also check the 3 guides created by GSG in the mod.io guides section.</li>
 <li>Mods are only hosted here on mod.io. Use the modding menu inside the game to create an account automatically so you can upload your mods.</li>
 <li>Your vanilla or modded save files are safe because mods will not corrupt/mess with it unless you use the tools maliciously. If you are concerned about this use the save clone and backup feature that the game provides in the menu.</li>
-<li>This guide only covers the bare minimum so if you want to learn more make sure you check all the other guides in the <code>#learn-guides</code> channel in the <a href="https://discord.gg/gUw32ayWGt">DRG Modding Discord</a>.</li>
+<li>This guide only covers the bare minimum, so if you want to learn more, make sure to read some of the other guides on <a href="https://mod.io/g/drg/r">mod.io</a>.</li>
 </ol>
 <p>I highly recommend reading sections 1. and 2. from top to bottom if it&rsquo;s your first time.</p>
 <h3>1.2 Basic tools</h3>

@@ -2,8 +2,8 @@
 
 <h2><strong>DRG Mods: A Comprehensive Guide to Audio Modding</strong></h2>
 <blockquote>
-<p>Please do not hesitate to ask for help on the <a href="https://discord.gg/gUw32ayWGt">DRG Modding Discord</a> in #mod-questions!</p>
-<p><strong>Credits:</strong><br />Buckminsterfullerene - Originally wrote and maintains guide.<br />Kraeus - Helping out with knowledge tidbits.<br />Dr Turtle - Typo/grammar/link fix pass, rewrote replacing axe impact sounds section.</p>ff
+<p>Please do not hesitate to ask for help! You can find talented modders in the <a href="https://discord.gg/tmFJcesA6d">DRG RND Discord</a> or the <a href="https://discord.gg/nkPhp2sZfd">DRG Modder's Guild Discord</a>.</p>
+<p><strong>Credits:</strong><br />Buckminsterfullerene - Originally wrote and maintains guide.<br />Kraeus - Helping out with knowledge tidbits.<br />Dr Turtle - Typo/grammar/link fix pass, rewrote replacing axe impact sounds section.</p>
 </blockquote>
 <h2>Watch this video guide while reading the written guide for extra information!</h2>
 <p><iframe src="//www.youtube.com/embed/FuAbj7ZmmCI" width="729" height="410" frameborder="0"></iframe></p>
@@ -281,7 +281,7 @@
 <p><strong>If you wish to listen to the original game sound waves, you can either: </strong></p>
 <ul>
 <li>Open the sound in FModel<strong><br /></strong></li>
-<li>Listen to any audio track in-game using the <a href="https://mod.io/g/drg/m/shout-framework">shout framework</a> mod.</li>
+<li>Listen to any voice line in-game using the <a href="https://mod.io/g/drg/m/shout-framework">shout framework</a> mod.</li>
 </ul>
 <p>Alternately, for more advanced users, you can reimport the cooked sound waves into the editor by closing UE, then copying in the cooked waves from the unpacked game files and overwriting the ones that are already there (you need both the .uasset and .uexp files). This should work for you for most circumstances, but only for that project.</p>
 <h3>Why can't I hear anything when I play some cues in-editor using the audio template?</h3>

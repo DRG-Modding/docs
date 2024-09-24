@@ -2,7 +2,7 @@
 
 <h2><strong>DRG Mods: A Comprehensive Guide to Blueprint Modding</strong></h2>
 <blockquote>
-<p>Please do not hesitate to ask for help on the <a href="https://discord.gg/gUw32ayWGt">DRG Modding Discord</a> in #mod-questions!</p>
+<p>Please do not hesitate to ask for help! You can find talented modders in the <a href="https://discord.gg/tmFJcesA6d">DRG RND Discord</a> or the <a href="https://discord.gg/nkPhp2sZfd">DRG Modder's Guild Discord</a>.</p>
 <p><strong>Credits:</strong><br />Buckminsterfullerene - Originally wrote and maintains guide.<br /><a href="https://mod.io/u/ourlordandsaviorgabe">OurLordAndSaviourGabe</a> (AKA Banagement) - Advanced replication explanation section.<br /><a href="https://mod.io/u/memechael">MichaelG123</a> - Secondary advanced replication section.</p>
 </blockquote>
 <hr />
@@ -82,7 +82,7 @@
 </ul>
 <p>I suggest that for now, as you are learning BP modding, that you don't touch any frameworks, otherwise you'll find yourself spending more time wrangling with widgets than actually learning new techniques.</p>
 <p><strong>ModHub</strong></p>
-<p>ModHub is the "official" shared-settings mod interface. If you want a place to put settings widgets for your mods, use this. You can view the guide for use <a href="https://discord.com/channels/676880716142739467/942127453441241199/943241214948417566">here</a> (you need to be in the DRG Modding discord).</p>
+<p>ModHub is a shared-settings mod interface. You can use this to add your mod settings to a central place.</p>
 <p><strong>DRGLib</strong></p>
 <p>Samamster has been developing this framework as a more feature-rich BP modding library. The great thing about this library, is that it provides helper functions and DRG-like UI objects that makes BP modding just that little bit easier. You can view both the source and guide for use <a href="https://github.com/SamsDRGMods/DRGLib">here</a>.</p>
 <h3>Methods of BP modding</h3>
