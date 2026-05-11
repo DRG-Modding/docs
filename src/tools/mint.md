@@ -78,8 +78,8 @@ As of update S5.10, the built-in mod manager loads sooner than it used to. This 
 1. On Steam, right-click Deep Rock Galactic and click "Properties"\
    ![](https://image.modcdn.io/members/26c3/9953341/profilemint/game_properties.png)
 2. Under the "General" tab (opens to this by default), you should see text that says "Advanced users may choose to enter modifications to their launch options". Click on the box below it.
-3. In this box, type `-disablemodding\
-   ![](https://image.modcdn.io/members/26c3/9953341/profilemint/launch_parameter.png)`
+3. In this box, type `-disablemodding`\
+   ![](https://image.modcdn.io/members/26c3/9953341/profilemint/launch_parameter.png)
 4. Close the properties window.
 
 It might seem counterintuitive to put a flag that reads as disabling modding, but all this parameter does is disable the built-in mod manager. It does not stop you from using MINT.
